@@ -1,7 +1,7 @@
 What's this?
 ------------
 
-A queue / time manager for brazln based apps, kinda like cron jobs. 
+A queue / time manager for beanpole based apps, kinda like cron jobs. 
 
 What can it do?
 ---------------
@@ -32,16 +32,16 @@ Installation:
 Code Usage:
 -----------
 
-In another brazln app:
+In another beanpole app:
 
 ```javascript
 
 
-exports.pod = function(mediator)
+exports.plugin = function(mediator)
 {
 	
 	mediator.on({
-		'push andPull thyme.ready': function()
+		'push -pull thyme.ready': function()
 		{
 			//tries = number of tries before killing
 			//max = max number of concurrent
@@ -55,7 +55,7 @@ exports.pod = function(mediator)
 			//do heavy stuff..
 
 			//this lets thyme know we're done
-			pull.callback();
+			pull.end();
 		}
 	})
 
@@ -77,4 +77,4 @@ To Do:
 ------
 
 - ordering queue based on request/response speed. 
-- Ability to 
+- need to check if call exists before making it.
