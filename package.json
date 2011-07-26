@@ -1,0 +1,20 @@
+{
+    "name":"thyme",
+    "descriptions": "time / queue management for node.js",
+    "version": "0.0.1",
+    "author": "Craig Condon <craig@spiceapps.com>",
+    "bin": {
+        "spiceapp": "./bin/thyme"
+    },
+    "dependencies":{
+        "sk":"*",
+        "beet":"*",
+        "beanpole":"*",
+        "structr":"*"
+    },
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/spiceapps/thyme.git"
+    },
+    "main": "./lib/index.js"
+}
