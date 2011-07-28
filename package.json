@@ -10,7 +10,8 @@
         "sk":"*",
         "beet":"*",
         "beanpole":"*",
-        "structr":"*"
+        "structr":"*",
+        "mongoose":"*"
     },
     "repository": {
         "type": "git",
