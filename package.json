@@ -8,10 +8,10 @@
     },
     "dependencies":{
         "sk":"*",
-        "beet":"*",
         "beanpole":"*",
         "structr":"*",
-        "mongoose":"*"
+        "mongoose":"*",
+        "vine":"*"
     },
     "repository": {
         "type": "git",
