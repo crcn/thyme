@@ -27,4 +27,4 @@ beanpole.on({
 });
 
 beanpole.push('init');
-beanpole.push('set/app/group', new Buffer(process.argv.pop()).toString('base64'));
+beanpole.push('set/id', new Buffer(process.argv.pop()).toString('base64'));
