@@ -3,9 +3,6 @@
     "descriptions": "time / queue management for node.js",
     "version": "0.0.2",
     "author": "Craig Condon <craig@spiceapps.com>",
-    "bin": {
-        "spiceapp": "./bin/thyme"
-    },
     "dependencies":{
         "sk":"*",
         "beanpole":"*",

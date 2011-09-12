@@ -2,7 +2,7 @@ var beanpole = require('beanpole').router();
 
 
 
-beanpole.require(['hook.core','hook.http']);
+beanpole.require(['hook.core','hook.http.mesh']);
 
 		var i = 0, self = this;
 
