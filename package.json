@@ -9,6 +9,7 @@
         "structr":"*",
         "vine":"*",
         "underscore":"*",
+        "redis":"*",
         "bean.database.mongo":"*"
     },
     "beans": {
