@@ -7,8 +7,16 @@
         "sk":"*",
         "beanpole":"*",
         "structr":"*",
-        "mongoose":"*",
-        "vine":"*"
+        "vine":"*",
+        "underscore":"*",
+        "bean.database.mongo":"*"
+    },
+    "beans": {
+        "bean.database.mongo": {
+            "host":"localhost",
+            "database":"spiceio"
+        },
+        "thyme.broker.mongo": true
     },
     "repository": {
         "type": "git",
