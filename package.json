@@ -10,6 +10,7 @@
         "vine":"*",
         "underscore":"*",
         "redis":"*",
+        "cashew":"*",
         "bean.database.mongo":"*"
     },
     "beans": {
