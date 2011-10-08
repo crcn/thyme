@@ -1,7 +1,14 @@
 var beanpole = require('beanpole'),
 router = beanpole.router();
 
-router.require('hook.core','hook.http.mesh');
+
+router.params({
+	'daisy': {
+		name: 'thyme-worker'
+	}
+})
+
+router.require( __dirname + '/../../node_modules/daisy');
                                     
 router.on({
 	
@@ -9,7 +16,7 @@ router.on({
 	{                                                        
 		console.log('Working');                  
 		
-		console.log(request.data);                                
+		console.log(request.data);       
 		
 		return { sendAt: Date.now() + 300, data: request.data + 'h' };
 	}                            

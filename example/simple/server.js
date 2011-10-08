@@ -2,7 +2,14 @@ var beanpole = require('beanpole'),
 router = beanpole.router(),
 celeri = require('celeri');
 
-router.require('hook.core','hook.http.mesh');
+router.params({
+	'daisy': {
+		name: 'thyme-test'
+	}
+})
+
+router.require( __dirname + '/../../node_modules/daisy');
+
                                     
 router.on({ 
 	
@@ -13,7 +20,7 @@ router.on({
 	{
 		console.log('Thyme is ready. Fire up the worker!');
 		
-		this.from.push('thyme/worker', { max: 10, channel: '/hello/worker' });
+		this.from.push('thyme/worker', { queue: 'thyme-worker', max: 20, channel: '/hello/worker' });
 	},
 	
 	/**
@@ -34,7 +41,7 @@ celeri.on({
 	
    	'message :message OR message :message :timeout': function(data)
 	{                                                                                                                          
-		router.push('thyme/enqueue', { channel: '/hello/worker', data: data.message, sendAt: Date.now() + (Number(data.timeout) || 0) });
+		router.push('thyme/enqueue', { queue:'thyme-worker', channel: '/hello/worker', data: data.message, sendAt: Date.now() + (Number(data.timeout) || 0) });
 	}
 });  
 

@@ -11,14 +11,19 @@
         "underscore":"*",
         "redis":"*",
         "cashew":"*",
-        "bean.database.mongo":"*"
+        "bean.database.mongo":"*",
+        "daisy":"*"
     },
     "beans": {
         "bean.database.mongo": {
             "host":"localhost",
             "database":"spiceio"
         },
-        "thyme.broker.mongo": true
+        "thyme.broker.mongo": true,
+        "daisy": {
+            "host":"localhost",
+            "name":"thyme"
+        }
     },
     "repository": {
         "type": "git",
