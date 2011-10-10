@@ -1,7 +1,7 @@
 {
     "name":"thyme",
     "descriptions": "time / queue management for node.js",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "author": "Craig Condon <craig@spiceapps.com>",
     "dependencies":{
         "sk":"*",
@@ -21,8 +21,12 @@
         },
         "thyme.broker.mongo": true,
         "daisy": {
-            "host":"localhost",
-            "name":"thyme"
+            "name":"thyme",
+            "transport": {
+                "rabbitmq": {
+                    "host":"localhost"
+                }
+            }
         }
     },
     "repository": {
