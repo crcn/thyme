@@ -2,13 +2,14 @@ var beanpole = require('beanpole'),
 router = beanpole.router(),
 celeri = require('celeri');
 
-router.params({
-	'daisy': {
-		name: 'thyme-test'
+require( __dirname + '/../../node_modules/daisy').plugin(router, {
+   	name: 'thyme-test',
+	transport: {
+		rabbitmq: {
+			host: 'localhost'
+		}
 	}
-})
-
-router.require( __dirname + '/../../node_modules/daisy');
+});
 
                                     
 router.on({ 
@@ -40,13 +41,12 @@ celeri.on({
 	 */                                                                                          
 	
    	'message :message OR message :message :timeout': function(data)
-	{                                                                                                                          
+	{           
+		console.log("G")                                                                                                               
 		router.push('thyme/enqueue', { queue:'thyme-worker', channel: '/hello/worker', data: data.message, sendAt: Date.now() + (Number(data.timeout) || 0) });
 	}
 });  
 
 
-celeri.open();
-                    
-router.push('set/id', 'test');
+celeri.open();                   
 router.push('init');

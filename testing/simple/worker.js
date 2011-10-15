@@ -2,26 +2,25 @@ var beanpole = require('beanpole'),
 router = beanpole.router();
 
 
-router.params({
-	'daisy': {
-		name: 'thyme-worker'
+require( __dirname + '/../../node_modules/daisy').plugin(router, {
+   	name: 'thyme-worker',
+	transport: {
+		rabbitmq: {
+			host: 'localhost'
+		}
 	}
-})
-
-router.require( __dirname + '/../../node_modules/daisy');
+});
                                     
 router.on({
 	
 	'pull -rotate -public hello/worker': function(request)
 	{                                                        
-		console.log('Working');                  
+		console.log(request.data);            
 		
-		console.log(request.data);       
+		if(request.data.length > 50) return true;
 		
-		return { sendAt: Date.now() + 300, data: request.data + 'h' };
+		return { sendAt: Date.now() + 1, data: request.data + 'h' };
 	}                            
 });                                  
-
-router.push('ready', 'worker');  
-router.push('set/id', 'test');
+                                  
 router.push('init');
