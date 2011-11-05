@@ -82,27 +82,27 @@ silly testEngine   _defaultsLoaded: true,
 silly testEngine   path: '/Users/craig/Dropbox/Developer/Public/thyme' }
 verbose caching package.json
 verbose loadDefaults thyme@0.0.4
-verbose pack /Users/craig/Dropbox/Developer/Public/thyme /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526662368-0.8504428693559021/tmp.tgz
-verbose mkdir (expected) error ENOENT, No such file or directory '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368'
-verbose mkdir (expected) error ENOENT, No such file or directory '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526662368-0.8504428693559021'
-verbose mkdir done: /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526662368-0.8504428693559021 755
-verbose mkdir'ed /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526662368-0.8504428693559021
+verbose pack /Users/craig/Dropbox/Developer/Public/thyme /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983487/1320526983486-0.1477359151467681/tmp.tgz
+verbose mkdir (expected) error ENOENT, No such file or directory '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983487'
+verbose mkdir (expected) error ENOENT, No such file or directory '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983487/1320526983486-0.1477359151467681'
+verbose mkdir done: /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983487/1320526983486-0.1477359151467681 755
+verbose mkdir'ed /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983487/1320526983486-0.1477359151467681
 verbose tar about to write tar and gzip it.
 silly tar args [ '-czvf', '-', '-T', '-' ]
 silly spawning [ 'tar',
 silly spawning   [ '-czvf', '-', '-T', '-' ],
 silly spawning   '/Users/craig/Dropbox/Developer/Public' ]
-verbose mkdir (expected) error ENOENT, No such file or directory '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526662368-0.8504428693559021/contents'
-verbose mkdir (expected) error ENOENT, No such file or directory '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526662368-0.8504428693559021/contents/___package.npm'
-verbose mkdir done: /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526662368-0.8504428693559021/contents/___package.npm 755
+verbose mkdir (expected) error ENOENT, No such file or directory '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983487/1320526983486-0.1477359151467681/contents'
+verbose mkdir (expected) error ENOENT, No such file or directory '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983487/1320526983486-0.1477359151467681/contents/___package.npm'
+verbose mkdir done: /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983487/1320526983486-0.1477359151467681/contents/___package.npm 755
 verbose unpack_ uid, gid [ undefined, undefined ]
-verbose unpackTarget /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526662368-0.8504428693559021/contents/package
+verbose unpackTarget /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983487/1320526983486-0.1477359151467681/contents/package
 silly gunzTarPerm modes [ '755', '644' ]
 silly spawning [ 'tar',
 silly spawning   [ '-zmvxpf',
-silly spawning     '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526662368-0.8504428693559021/tmp.tgz',
+silly spawning     '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983487/1320526983486-0.1477359151467681/tmp.tgz',
 silly spawning     '-o' ],
-silly spawning   '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526662368-0.8504428693559021/contents/___package.npm' ]
+silly spawning   '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983487/1320526983486-0.1477359151467681/contents/___package.npm' ]
 silly tar err x thyme/.cupboard
 silly tar err x thyme/.gitignore
 silly tar err x thyme/package.json
@@ -128,48 +128,48 @@ silly tar err x thyme/lib-old/beans/db.external.mongo/index.js
 silly tar err x thyme/lib-old/beans/thyme.core/index.js
 silly tar err x thyme/lib-old/beans/thyme.core/parseTime.js
 silly tar err x thyme/lib-old/beans/thyme.core/queue.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526662368-0.8504428693559021/contents/___package.npm/thyme
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526662368-0.8504428693559021/contents/___package.npm/thyme/.cupboard
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526662368-0.8504428693559021/contents/___package.npm/thyme/.gitignore
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526662368-0.8504428693559021/contents/___package.npm/thyme/package.json
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526662368-0.8504428693559021/contents/___package.npm/thyme/README.md
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526662368-0.8504428693559021/contents/___package.npm/thyme/supervisord.conf
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526662368-0.8504428693559021/contents/___package.npm/thyme/testing
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526662368-0.8504428693559021/contents/___package.npm/thyme/testing/simple
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526662368-0.8504428693559021/contents/___package.npm/thyme/testing/simple/server.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526662368-0.8504428693559021/contents/___package.npm/thyme/testing/simple/worker.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526662368-0.8504428693559021/contents/___package.npm/thyme/testing/simple2
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526662368-0.8504428693559021/contents/___package.npm/thyme/testing/simple2/server.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526662368-0.8504428693559021/contents/___package.npm/thyme/testing/simple2/worker.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526662368-0.8504428693559021/contents/___package.npm/thyme/lib
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526662368-0.8504428693559021/contents/___package.npm/thyme/lib/index.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526662368-0.8504428693559021/contents/___package.npm/thyme/lib/server.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526662368-0.8504428693559021/contents/___package.npm/thyme/lib/beans
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526662368-0.8504428693559021/contents/___package.npm/thyme/lib/beans/thyme.broker.mongo
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526662368-0.8504428693559021/contents/___package.npm/thyme/lib/beans/thyme.broker.mongo/broker.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526662368-0.8504428693559021/contents/___package.npm/thyme/lib/beans/thyme.broker.mongo/index.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526662368-0.8504428693559021/contents/___package.npm/thyme/lib/beans/thyme.broker.redis
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526662368-0.8504428693559021/contents/___package.npm/thyme/lib/beans/thyme.broker.redis/broker.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526662368-0.8504428693559021/contents/___package.npm/thyme/lib/beans/thyme.broker.redis/index.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526662368-0.8504428693559021/contents/___package.npm/thyme/lib/beans/thyme.core
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526662368-0.8504428693559021/contents/___package.npm/thyme/lib/beans/thyme.core/index.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526662368-0.8504428693559021/contents/___package.npm/thyme/lib/beans/thyme.core/job.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526662368-0.8504428693559021/contents/___package.npm/thyme/lib/beans/thyme.core/worker.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526662368-0.8504428693559021/contents/___package.npm/thyme/lib/beans/thyme.core/workers.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526662368-0.8504428693559021/contents/___package.npm/thyme/lib-old
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526662368-0.8504428693559021/contents/___package.npm/thyme/lib-old/index.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526662368-0.8504428693559021/contents/___package.npm/thyme/lib-old/redis.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526662368-0.8504428693559021/contents/___package.npm/thyme/lib-old/beans
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526662368-0.8504428693559021/contents/___package.npm/thyme/lib-old/beans/db.external.mongo
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526662368-0.8504428693559021/contents/___package.npm/thyme/lib-old/beans/db.external.mongo/index.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526662368-0.8504428693559021/contents/___package.npm/thyme/lib-old/beans/thyme.core
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526662368-0.8504428693559021/contents/___package.npm/thyme/lib-old/beans/thyme.core/index.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526662368-0.8504428693559021/contents/___package.npm/thyme/lib-old/beans/thyme.core/parseTime.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526662368-0.8504428693559021/contents/___package.npm/thyme/lib-old/beans/thyme.core/queue.js
-verbose gunzed /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526662368-0.8504428693559021/contents/___package.npm/thyme
-verbose rm'ed /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526662368-0.8504428693559021/contents/package
-verbose renamed [ '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526662368-0.8504428693559021/contents/___package.npm/thyme',
-verbose renamed   '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526662368-0.8504428693559021/contents/package' ]
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983487/1320526983486-0.1477359151467681/contents/___package.npm/thyme
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983487/1320526983486-0.1477359151467681/contents/___package.npm/thyme/.cupboard
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983487/1320526983486-0.1477359151467681/contents/___package.npm/thyme/.gitignore
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983487/1320526983486-0.1477359151467681/contents/___package.npm/thyme/package.json
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983487/1320526983486-0.1477359151467681/contents/___package.npm/thyme/README.md
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983487/1320526983486-0.1477359151467681/contents/___package.npm/thyme/supervisord.conf
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983487/1320526983486-0.1477359151467681/contents/___package.npm/thyme/testing
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983487/1320526983486-0.1477359151467681/contents/___package.npm/thyme/testing/simple
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983487/1320526983486-0.1477359151467681/contents/___package.npm/thyme/testing/simple/server.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983487/1320526983486-0.1477359151467681/contents/___package.npm/thyme/testing/simple/worker.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983487/1320526983486-0.1477359151467681/contents/___package.npm/thyme/testing/simple2
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983487/1320526983486-0.1477359151467681/contents/___package.npm/thyme/testing/simple2/server.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983487/1320526983486-0.1477359151467681/contents/___package.npm/thyme/testing/simple2/worker.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983487/1320526983486-0.1477359151467681/contents/___package.npm/thyme/lib
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983487/1320526983486-0.1477359151467681/contents/___package.npm/thyme/lib/index.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983487/1320526983486-0.1477359151467681/contents/___package.npm/thyme/lib/server.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983487/1320526983486-0.1477359151467681/contents/___package.npm/thyme/lib/beans
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983487/1320526983486-0.1477359151467681/contents/___package.npm/thyme/lib/beans/thyme.broker.mongo
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983487/1320526983486-0.1477359151467681/contents/___package.npm/thyme/lib/beans/thyme.broker.mongo/broker.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983487/1320526983486-0.1477359151467681/contents/___package.npm/thyme/lib/beans/thyme.broker.mongo/index.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983487/1320526983486-0.1477359151467681/contents/___package.npm/thyme/lib/beans/thyme.broker.redis
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983487/1320526983486-0.1477359151467681/contents/___package.npm/thyme/lib/beans/thyme.broker.redis/broker.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983487/1320526983486-0.1477359151467681/contents/___package.npm/thyme/lib/beans/thyme.broker.redis/index.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983487/1320526983486-0.1477359151467681/contents/___package.npm/thyme/lib/beans/thyme.core
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983487/1320526983486-0.1477359151467681/contents/___package.npm/thyme/lib/beans/thyme.core/index.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983487/1320526983486-0.1477359151467681/contents/___package.npm/thyme/lib/beans/thyme.core/job.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983487/1320526983486-0.1477359151467681/contents/___package.npm/thyme/lib/beans/thyme.core/worker.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983487/1320526983486-0.1477359151467681/contents/___package.npm/thyme/lib/beans/thyme.core/workers.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983487/1320526983486-0.1477359151467681/contents/___package.npm/thyme/lib-old
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983487/1320526983486-0.1477359151467681/contents/___package.npm/thyme/lib-old/index.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983487/1320526983486-0.1477359151467681/contents/___package.npm/thyme/lib-old/redis.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983487/1320526983486-0.1477359151467681/contents/___package.npm/thyme/lib-old/beans
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983487/1320526983486-0.1477359151467681/contents/___package.npm/thyme/lib-old/beans/db.external.mongo
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983487/1320526983486-0.1477359151467681/contents/___package.npm/thyme/lib-old/beans/db.external.mongo/index.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983487/1320526983486-0.1477359151467681/contents/___package.npm/thyme/lib-old/beans/thyme.core
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983487/1320526983486-0.1477359151467681/contents/___package.npm/thyme/lib-old/beans/thyme.core/index.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983487/1320526983486-0.1477359151467681/contents/___package.npm/thyme/lib-old/beans/thyme.core/parseTime.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983487/1320526983486-0.1477359151467681/contents/___package.npm/thyme/lib-old/beans/thyme.core/queue.js
+verbose gunzed /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983487/1320526983486-0.1477359151467681/contents/___package.npm/thyme
+verbose rm'ed /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983487/1320526983486-0.1477359151467681/contents/package
+verbose renamed [ '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983487/1320526983486-0.1477359151467681/contents/___package.npm/thyme',
+verbose renamed   '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983487/1320526983486-0.1477359151467681/contents/package' ]
 silly testEngine { name: 'thyme',
 silly testEngine   descriptions: 'time / queue management for node.js',
 silly testEngine   version: '0.0.4',
@@ -203,18 +203,18 @@ silly testEngine   _engineSupported: true,
 silly testEngine   _npmVersion: '1.0.103',
 silly testEngine   _nodeVersion: 'v0.4.12',
 silly testEngine   _defaultsLoaded: true,
-silly testEngine   path: '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526662368-0.8504428693559021/contents/package' }
-verbose caching /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526662368-0.8504428693559021/contents/package/package.json
+silly testEngine   path: '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983487/1320526983486-0.1477359151467681/contents/package' }
+verbose caching /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983487/1320526983486-0.1477359151467681/contents/package/package.json
 verbose loadDefaults thyme@0.0.4
 verbose tarball contents [ 'package' ]
-verbose from cache /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526662368-0.8504428693559021/contents/package/package.json
-verbose pack /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526662368-0.8504428693559021/contents/package /Users/craig/.npm/thyme/0.0.4/package.tgz
+verbose from cache /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983487/1320526983486-0.1477359151467681/contents/package/package.json
+verbose pack /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983487/1320526983486-0.1477359151467681/contents/package /Users/craig/.npm/thyme/0.0.4/package.tgz
 verbose mkdir'ed /Users/craig/.npm/thyme/0.0.4
 verbose tar about to write tar and gzip it.
 silly tar args [ '-czvf', '-', '-T', '-' ]
 silly spawning [ 'tar',
 silly spawning   [ '-czvf', '-', '-T', '-' ],
-silly spawning   '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526662368-0.8504428693559021/contents' ]
+silly spawning   '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983487/1320526983486-0.1477359151467681/contents' ]
 verbose mkdir (expected) error ENOENT, No such file or directory '/Users/craig/.npm/thyme/0.0.4/___package.npm'
 verbose mkdir done: /Users/craig/.npm/thyme/0.0.4/___package.npm 755
 verbose unpack_ uid, gid [ undefined, undefined ]
@@ -326,12 +326,12 @@ silly testEngine   _npmVersion: '1.0.103',
 silly testEngine   _nodeVersion: 'v0.4.12',
 silly testEngine   _defaultsLoaded: true,
 silly testEngine   dist: 
-silly testEngine    { shasum: 'ce69d7610d95bba7e51ee15e7f7fbfc62a0e4bbc',
+silly testEngine    { shasum: 'b64fc5d4e049a4753603d5cc04476586ebb890cc',
 silly testEngine      tarball: 'http://registry.npmjs.org/thyme/-/thyme-0.0.4.tgz' } }
 verbose caching /Users/craig/.npm/thyme/0.0.4/package/package.json
 verbose loadDefaults thyme@0.0.4
 silly updated sha bytes 20480
-info shasum 7bdbbe5105b37a7c97a0d6a93540bb1bc2e9cc09
+info shasum b64fc5d4e049a4753603d5cc04476586ebb890cc
 info shasum /Users/craig/.npm/thyme/0.0.4/package.tgz
 verbose from cache /Users/craig/.npm/thyme/0.0.4/package/package.json
 verbose chmod /Users/craig/.npm/thyme/0.0.4/package.tgz 644
@@ -372,316 +372,7 @@ silly publish   _npmVersion: '1.0.103',
 silly publish   _nodeVersion: 'v0.4.12',
 silly publish   _defaultsLoaded: true,
 silly publish   dist: 
-silly publish    { shasum: 'ce69d7610d95bba7e51ee15e7f7fbfc62a0e4bbc',
-silly publish      tarball: 'http://registry.npmjs.org/thyme/-/thyme-0.0.4.tgz' } }
-verbose PUT thyme
-verbose raw, before any munging thyme
-verbose url resolving [ 'https://registry.npmjs.org/', './thyme' ]
-verbose url resolved https://registry.npmjs.org/thyme
-verbose GET thyme
-verbose raw, before any munging thyme
-verbose url resolving [ 'https://registry.npmjs.org/', './thyme' ]
-verbose url resolved https://registry.npmjs.org/thyme
-info Already published thyme@0.0.4
-verbose uploading bin dists []
-WARN publish Forced publish over thyme@0.0.4
-verbose GET thyme
-verbose raw, before any munging thyme
-verbose url resolving [ 'https://registry.npmjs.org/', './thyme' ]
-verbose url resolved https://registry.npmjs.org/thyme
-silly get cb [ 200,
-silly get cb   { vary: 'Accept',
-silly get cb     server: 'CouchDB/1.1.1 (Erlang OTP/R14B04)',
-silly get cb     etag: '"BR3YW8HRJOZFF9IPBWPV9J09Q"',
-silly get cb     date: 'Sat, 05 Nov 2011 20:57:47 GMT',
-silly get cb     'content-type': 'application/json',
-silly get cb     'content-length': '3802' } ]
-verbose removing attachments { shasum: '0e55188b1699d47b41e35c0f2f6d25659cecb4a7',
-verbose removing attachments   tarball: 'http://registry.npmjs.org/thyme/-/thyme-0.0.4.tgz' }
-verbose PUT thyme/-rev/33-a424684123637ff8743c25b170086fdd
-verbose raw, before any munging thyme/-rev/33-a424684123637ff8743c25b170086fdd
-verbose url resolving [ 'https://registry.npmjs.org/',
-verbose url resolving   './thyme/-rev/33-a424684123637ff8743c25b170086fdd' ]
-verbose url resolved https://registry.npmjs.org/thyme/-rev/33-a424684123637ff8743c25b170086fdd
-verbose GET thyme
-verbose raw, before any munging thyme
-verbose url resolving [ 'https://registry.npmjs.org/', './thyme' ]
-verbose url resolved https://registry.npmjs.org/thyme
-silly get cb [ 200,
-silly get cb   { vary: 'Accept',
-silly get cb     server: 'CouchDB/1.1.1 (Erlang OTP/R14B04)',
-silly get cb     etag: '"7AMNKKNH54E64QLAOZT0MMY1Q"',
-silly get cb     date: 'Sat, 05 Nov 2011 20:57:48 GMT',
-silly get cb     'content-type': 'application/json',
-silly get cb     'content-length': '2741' } ]
-info detach /thyme/-/thyme-0.0.4.tgz/-rev/34-c38d833cbf7fec65974d286c19723b27
-verbose DELETE /thyme/-/thyme-0.0.4.tgz/-rev/34-c38d833cbf7fec65974d286c19723b27
-verbose raw, before any munging /thyme/-/thyme-0.0.4.tgz/-rev/34-c38d833cbf7fec65974d286c19723b27
-verbose url resolving [ 'https://registry.npmjs.org/',
-verbose url resolving   './thyme/-/thyme-0.0.4.tgz/-rev/34-c38d833cbf7fec65974d286c19723b27' ]
-verbose url resolved https://registry.npmjs.org/thyme/-/thyme-0.0.4.tgz/-rev/34-c38d833cbf7fec65974d286c19723b27
-verbose publish [ '.' ]
-verbose from cache /Users/craig/Dropbox/Developer/Public/thyme/package.json
-info prepublish thyme@0.0.4
-verbose cache add [ '.', null ]
-silly cache add: name, spec, args [ undefined, '.', [ '.', null ] ]
-verbose parsed url { pathname: '.', href: '.' }
-verbose from cache package.json
-verbose pack /Users/craig/Dropbox/Developer/Public/thyme /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526667161-0.5031202114187181/tmp.tgz
-verbose mkdir (expected) error ENOENT, No such file or directory '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526667161-0.5031202114187181'
-verbose mkdir done: /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526667161-0.5031202114187181 755
-verbose mkdir'ed /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526667161-0.5031202114187181
-verbose tar about to write tar and gzip it.
-silly tar args [ '-czvf', '-', '-T', '-' ]
-silly spawning [ 'tar',
-silly spawning   [ '-czvf', '-', '-T', '-' ],
-silly spawning   '/Users/craig/Dropbox/Developer/Public' ]
-verbose mkdir (expected) error ENOENT, No such file or directory '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526667161-0.5031202114187181/contents'
-verbose mkdir (expected) error ENOENT, No such file or directory '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526667161-0.5031202114187181/contents/___package.npm'
-verbose mkdir done: /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526667161-0.5031202114187181/contents/___package.npm 755
-verbose unpack_ uid, gid [ undefined, undefined ]
-verbose unpackTarget /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526667161-0.5031202114187181/contents/package
-silly gunzTarPerm modes [ '755', '644' ]
-silly spawning [ 'tar',
-silly spawning   [ '-zmvxpf',
-silly spawning     '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526667161-0.5031202114187181/tmp.tgz',
-silly spawning     '-o' ],
-silly spawning   '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526667161-0.5031202114187181/contents/___package.npm' ]
-silly tar err x thyme/.cupboard
-silly tar err x thyme/.gitignore
-silly tar err x thyme/package.json
-silly tar err x thyme/README.md
-silly tar err x thyme/supervisord.conf
-silly tar err x thyme/testing/simple/server.js
-silly tar err x thyme/testing/simple/worker.js
-silly tar err x thyme/testing/simple2/server.js
-silly tar err x thyme/testing/simple2/worker.js
-silly tar err x thyme/lib/server.js
-silly tar err x thyme/lib/index.js
-silly tar err x thyme/lib/beans/thyme.broker.mongo/broker.js
-silly tar err x thyme/lib/beans/thyme.broker.mongo/index.js
-silly tar err x thyme/lib/beans/thyme.broker.redis/broker.js
-silly tar err x thyme/lib/beans/thyme.broker.redis/index.js
-silly tar err x thyme/lib/beans/thyme.core/index.js
-silly tar err x thyme/lib/beans/thyme.core/job.js
-silly tar err x thyme/lib/beans/thyme.core/worker.js
-silly tar err x thyme/lib/beans/thyme.core/workers.js
-silly tar err x thyme/lib-old/index.js
-silly tar err x thyme/lib-old/redis.js
-silly tar err x thyme/lib-old/beans/db.external.mongo/index.js
-silly tar err x thyme/lib-old/beans/thyme.core/index.js
-silly tar err x thyme/lib-old/beans/thyme.core/parseTime.js
-silly tar err x thyme/lib-old/beans/thyme.core/queue.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526667161-0.5031202114187181/contents/___package.npm/thyme
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526667161-0.5031202114187181/contents/___package.npm/thyme/.cupboard
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526667161-0.5031202114187181/contents/___package.npm/thyme/.gitignore
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526667161-0.5031202114187181/contents/___package.npm/thyme/package.json
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526667161-0.5031202114187181/contents/___package.npm/thyme/README.md
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526667161-0.5031202114187181/contents/___package.npm/thyme/supervisord.conf
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526667161-0.5031202114187181/contents/___package.npm/thyme/testing
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526667161-0.5031202114187181/contents/___package.npm/thyme/testing/simple
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526667161-0.5031202114187181/contents/___package.npm/thyme/testing/simple/server.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526667161-0.5031202114187181/contents/___package.npm/thyme/testing/simple/worker.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526667161-0.5031202114187181/contents/___package.npm/thyme/testing/simple2
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526667161-0.5031202114187181/contents/___package.npm/thyme/testing/simple2/server.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526667161-0.5031202114187181/contents/___package.npm/thyme/testing/simple2/worker.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526667161-0.5031202114187181/contents/___package.npm/thyme/lib-old
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526667161-0.5031202114187181/contents/___package.npm/thyme/lib-old/index.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526667161-0.5031202114187181/contents/___package.npm/thyme/lib-old/redis.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526667161-0.5031202114187181/contents/___package.npm/thyme/lib-old/beans
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526667161-0.5031202114187181/contents/___package.npm/thyme/lib-old/beans/db.external.mongo
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526667161-0.5031202114187181/contents/___package.npm/thyme/lib-old/beans/db.external.mongo/index.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526667161-0.5031202114187181/contents/___package.npm/thyme/lib-old/beans/thyme.core
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526667161-0.5031202114187181/contents/___package.npm/thyme/lib-old/beans/thyme.core/index.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526667161-0.5031202114187181/contents/___package.npm/thyme/lib-old/beans/thyme.core/parseTime.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526667161-0.5031202114187181/contents/___package.npm/thyme/lib-old/beans/thyme.core/queue.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526667161-0.5031202114187181/contents/___package.npm/thyme/lib
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526667161-0.5031202114187181/contents/___package.npm/thyme/lib/index.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526667161-0.5031202114187181/contents/___package.npm/thyme/lib/server.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526667161-0.5031202114187181/contents/___package.npm/thyme/lib/beans
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526667161-0.5031202114187181/contents/___package.npm/thyme/lib/beans/thyme.broker.mongo
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526667161-0.5031202114187181/contents/___package.npm/thyme/lib/beans/thyme.broker.mongo/broker.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526667161-0.5031202114187181/contents/___package.npm/thyme/lib/beans/thyme.broker.mongo/index.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526667161-0.5031202114187181/contents/___package.npm/thyme/lib/beans/thyme.broker.redis
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526667161-0.5031202114187181/contents/___package.npm/thyme/lib/beans/thyme.broker.redis/broker.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526667161-0.5031202114187181/contents/___package.npm/thyme/lib/beans/thyme.broker.redis/index.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526667161-0.5031202114187181/contents/___package.npm/thyme/lib/beans/thyme.core
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526667161-0.5031202114187181/contents/___package.npm/thyme/lib/beans/thyme.core/index.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526667161-0.5031202114187181/contents/___package.npm/thyme/lib/beans/thyme.core/job.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526667161-0.5031202114187181/contents/___package.npm/thyme/lib/beans/thyme.core/worker.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526667161-0.5031202114187181/contents/___package.npm/thyme/lib/beans/thyme.core/workers.js
-verbose gunzed /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526667161-0.5031202114187181/contents/___package.npm/thyme
-verbose rm'ed /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526667161-0.5031202114187181/contents/package
-verbose renamed [ '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526667161-0.5031202114187181/contents/___package.npm/thyme',
-verbose renamed   '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526667161-0.5031202114187181/contents/package' ]
-silly testEngine { name: 'thyme',
-silly testEngine   descriptions: 'time / queue management for node.js',
-silly testEngine   version: '0.0.4',
-silly testEngine   author: { name: 'Craig Condon', email: 'craig@spiceapps.com' },
-silly testEngine   dependencies: 
-silly testEngine    { sk: '*',
-silly testEngine      beanpole: '*',
-silly testEngine      structr: '*',
-silly testEngine      vine: '*',
-silly testEngine      underscore: '*',
-silly testEngine      redis: '*',
-silly testEngine      cashew: '*',
-silly testEngine      'bean.database.mongo': '*',
-silly testEngine      daisy: '*',
-silly testEngine      colors: '*' },
-silly testEngine   beans: 
-silly testEngine    { 'bean.database.mongo': { host: 'localhost', database: 'spiceio' },
-silly testEngine      'thyme.broker.mongo': true,
-silly testEngine      daisy: 
-silly testEngine       { name: 'thyme',
-silly testEngine         transport: { rabbitmq: { host: 'localhost' } } } },
-silly testEngine   repository: 
-silly testEngine    { type: 'git',
-silly testEngine      url: 'git://github.com/spiceapps/thyme.git' },
-silly testEngine   main: './lib/index.js',
-silly testEngine   _npmUser: { name: 'architectd', email: 'craig@spiceapps.com' },
-silly testEngine   _id: 'thyme@0.0.4',
-silly testEngine   devDependencies: {},
-silly testEngine   engines: { node: '*' },
-silly testEngine   _engineSupported: true,
-silly testEngine   _npmVersion: '1.0.103',
-silly testEngine   _nodeVersion: 'v0.4.12',
-silly testEngine   _defaultsLoaded: true,
-silly testEngine   path: '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526667161-0.5031202114187181/contents/package' }
-verbose caching /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526667161-0.5031202114187181/contents/package/package.json
-verbose loadDefaults thyme@0.0.4
-verbose tarball contents [ 'package' ]
-verbose from cache /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526667161-0.5031202114187181/contents/package/package.json
-verbose pack /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526667161-0.5031202114187181/contents/package /Users/craig/.npm/thyme/0.0.4/package.tgz
-verbose mkdir (expected) error ENOENT, No such file or directory '/Users/craig/.npm/thyme/0.0.4'
-verbose mkdir done: /Users/craig/.npm/thyme/0.0.4 755
-verbose mkdir'ed /Users/craig/.npm/thyme/0.0.4
-verbose tar about to write tar and gzip it.
-silly tar args [ '-czvf', '-', '-T', '-' ]
-silly spawning [ 'tar',
-silly spawning   [ '-czvf', '-', '-T', '-' ],
-silly spawning   '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662368/1320526667161-0.5031202114187181/contents' ]
-verbose mkdir (expected) error ENOENT, No such file or directory '/Users/craig/.npm/thyme/0.0.4/___package.npm'
-verbose mkdir done: /Users/craig/.npm/thyme/0.0.4/___package.npm 755
-verbose unpack_ uid, gid [ undefined, undefined ]
-verbose unpackTarget /Users/craig/.npm/thyme/0.0.4/package
-silly gunzTarPerm modes [ '755', '644' ]
-silly spawning [ 'tar',
-silly spawning   [ '-zmvxpf',
-silly spawning     '/Users/craig/.npm/thyme/0.0.4/package.tgz',
-silly spawning     '-o' ],
-silly spawning   '/Users/craig/.npm/thyme/0.0.4/___package.npm' ]
-silly tar err x package/.cupboard
-silly tar err x package/.gitignore
-silly tar err x package/package.json
-silly tar err x package/README.md
-silly tar err x package/supervisord.conf
-silly tar err x package/testing/simple/server.js
-silly tar err x package/testing/simple/worker.js
-silly tar err x package/testing/simple2/server.js
-silly tar err x package/testing/simple2/worker.js
-silly tar err x package/lib/index.js
-silly tar err x package/lib/server.js
-silly tar err x package/lib/beans/thyme.broker.mongo/broker.js
-silly tar err x package/lib/beans/thyme.broker.mongo/index.js
-silly tar err x package/lib/beans/thyme.broker.redis/broker.js
-silly tar err x package/lib/beans/thyme.broker.redis/index.js
-silly tar err x package/lib/beans/thyme.core/index.js
-silly tar err x package/lib/beans/thyme.core/job.js
-silly tar err x package/lib/beans/thyme.core/worker.js
-silly tar err x package/lib/beans/thyme.core/workers.js
-silly tar err x package/lib-old/index.js
-silly tar err x package/lib-old/redis.js
-silly tar err x package/lib-old/beans/db.external.mongo/index.js
-silly tar err x package/lib-old/beans/thyme.core/index.js
-silly tar err x package/lib-old/beans/thyme.core/parseTime.js
-silly tar err x package/lib-old/beans/thyme.core/queue.js
-silly asyncMap in gTP /Users/craig/.npm/thyme/0.0.4/___package.npm/package
-silly asyncMap in gTP /Users/craig/.npm/thyme/0.0.4/___package.npm/package/.cupboard
-silly asyncMap in gTP /Users/craig/.npm/thyme/0.0.4/___package.npm/package/.gitignore
-silly asyncMap in gTP /Users/craig/.npm/thyme/0.0.4/___package.npm/package/package.json
-silly asyncMap in gTP /Users/craig/.npm/thyme/0.0.4/___package.npm/package/README.md
-silly asyncMap in gTP /Users/craig/.npm/thyme/0.0.4/___package.npm/package/supervisord.conf
-silly asyncMap in gTP /Users/craig/.npm/thyme/0.0.4/___package.npm/package/testing
-silly asyncMap in gTP /Users/craig/.npm/thyme/0.0.4/___package.npm/package/testing/simple
-silly asyncMap in gTP /Users/craig/.npm/thyme/0.0.4/___package.npm/package/testing/simple/server.js
-silly asyncMap in gTP /Users/craig/.npm/thyme/0.0.4/___package.npm/package/testing/simple/worker.js
-silly asyncMap in gTP /Users/craig/.npm/thyme/0.0.4/___package.npm/package/testing/simple2
-silly asyncMap in gTP /Users/craig/.npm/thyme/0.0.4/___package.npm/package/testing/simple2/server.js
-silly asyncMap in gTP /Users/craig/.npm/thyme/0.0.4/___package.npm/package/testing/simple2/worker.js
-silly asyncMap in gTP /Users/craig/.npm/thyme/0.0.4/___package.npm/package/lib
-silly asyncMap in gTP /Users/craig/.npm/thyme/0.0.4/___package.npm/package/lib/server.js
-silly asyncMap in gTP /Users/craig/.npm/thyme/0.0.4/___package.npm/package/lib/index.js
-silly asyncMap in gTP /Users/craig/.npm/thyme/0.0.4/___package.npm/package/lib/beans
-silly asyncMap in gTP /Users/craig/.npm/thyme/0.0.4/___package.npm/package/lib/beans/thyme.broker.mongo
-silly asyncMap in gTP /Users/craig/.npm/thyme/0.0.4/___package.npm/package/lib/beans/thyme.broker.mongo/broker.js
-silly asyncMap in gTP /Users/craig/.npm/thyme/0.0.4/___package.npm/package/lib/beans/thyme.broker.mongo/index.js
-silly asyncMap in gTP /Users/craig/.npm/thyme/0.0.4/___package.npm/package/lib/beans/thyme.broker.redis
-silly asyncMap in gTP /Users/craig/.npm/thyme/0.0.4/___package.npm/package/lib/beans/thyme.broker.redis/broker.js
-silly asyncMap in gTP /Users/craig/.npm/thyme/0.0.4/___package.npm/package/lib/beans/thyme.broker.redis/index.js
-silly asyncMap in gTP /Users/craig/.npm/thyme/0.0.4/___package.npm/package/lib/beans/thyme.core
-silly asyncMap in gTP /Users/craig/.npm/thyme/0.0.4/___package.npm/package/lib/beans/thyme.core/index.js
-silly asyncMap in gTP /Users/craig/.npm/thyme/0.0.4/___package.npm/package/lib/beans/thyme.core/job.js
-silly asyncMap in gTP /Users/craig/.npm/thyme/0.0.4/___package.npm/package/lib/beans/thyme.core/worker.js
-silly asyncMap in gTP /Users/craig/.npm/thyme/0.0.4/___package.npm/package/lib/beans/thyme.core/workers.js
-silly asyncMap in gTP /Users/craig/.npm/thyme/0.0.4/___package.npm/package/lib-old
-silly asyncMap in gTP /Users/craig/.npm/thyme/0.0.4/___package.npm/package/lib-old/index.js
-silly asyncMap in gTP /Users/craig/.npm/thyme/0.0.4/___package.npm/package/lib-old/redis.js
-silly asyncMap in gTP /Users/craig/.npm/thyme/0.0.4/___package.npm/package/lib-old/beans
-silly asyncMap in gTP /Users/craig/.npm/thyme/0.0.4/___package.npm/package/lib-old/beans/db.external.mongo
-silly asyncMap in gTP /Users/craig/.npm/thyme/0.0.4/___package.npm/package/lib-old/beans/db.external.mongo/index.js
-silly asyncMap in gTP /Users/craig/.npm/thyme/0.0.4/___package.npm/package/lib-old/beans/thyme.core
-silly asyncMap in gTP /Users/craig/.npm/thyme/0.0.4/___package.npm/package/lib-old/beans/thyme.core/index.js
-silly asyncMap in gTP /Users/craig/.npm/thyme/0.0.4/___package.npm/package/lib-old/beans/thyme.core/parseTime.js
-silly asyncMap in gTP /Users/craig/.npm/thyme/0.0.4/___package.npm/package/lib-old/beans/thyme.core/queue.js
-verbose gunzed /Users/craig/.npm/thyme/0.0.4/___package.npm/package
-verbose rm'ed /Users/craig/.npm/thyme/0.0.4/package
-verbose renamed [ '/Users/craig/.npm/thyme/0.0.4/___package.npm/package',
-verbose renamed   '/Users/craig/.npm/thyme/0.0.4/package' ]
-verbose from cache /Users/craig/.npm/thyme/0.0.4/package/package.json
-silly updated sha bytes 20480
-info shasum ce69d7610d95bba7e51ee15e7f7fbfc62a0e4bbc
-info shasum /Users/craig/.npm/thyme/0.0.4/package.tgz
-verbose from cache /Users/craig/.npm/thyme/0.0.4/package/package.json
-verbose chmod /Users/craig/.npm/thyme/0.0.4/package.tgz 644
-verbose chown [ '/Users/craig/.npm/thyme/0.0.4/package.tgz',
-verbose chown   501,
-verbose chown   20 ]
-silly publish { name: 'thyme',
-silly publish   descriptions: 'time / queue management for node.js',
-silly publish   version: '0.0.4',
-silly publish   author: { name: 'Craig Condon', email: 'craig@spiceapps.com' },
-silly publish   dependencies: 
-silly publish    { sk: '*',
-silly publish      beanpole: '*',
-silly publish      structr: '*',
-silly publish      vine: '*',
-silly publish      underscore: '*',
-silly publish      redis: '*',
-silly publish      cashew: '*',
-silly publish      'bean.database.mongo': '*',
-silly publish      daisy: '*',
-silly publish      colors: '*' },
-silly publish   beans: 
-silly publish    { 'bean.database.mongo': { host: 'localhost', database: 'spiceio' },
-silly publish      'thyme.broker.mongo': true,
-silly publish      daisy: 
-silly publish       { name: 'thyme',
-silly publish         transport: { rabbitmq: { host: 'localhost' } } } },
-silly publish   repository: 
-silly publish    { type: 'git',
-silly publish      url: 'git://github.com/spiceapps/thyme.git' },
-silly publish   main: './lib/index.js',
-silly publish   _npmUser: { name: 'architectd', email: 'craig@spiceapps.com' },
-silly publish   _id: 'thyme@0.0.4',
-silly publish   devDependencies: {},
-silly publish   engines: { node: '*' },
-silly publish   _engineSupported: true,
-silly publish   _npmVersion: '1.0.103',
-silly publish   _nodeVersion: 'v0.4.12',
-silly publish   _defaultsLoaded: true,
-silly publish   dist: 
-silly publish    { shasum: 'ce69d7610d95bba7e51ee15e7f7fbfc62a0e4bbc',
+silly publish    { shasum: 'b64fc5d4e049a4753603d5cc04476586ebb890cc',
 silly publish      tarball: 'http://registry.npmjs.org/thyme/-/thyme-0.0.4.tgz' } }
 verbose PUT thyme
 verbose raw, before any munging thyme
