@@ -1,5 +1,2 @@
-[project]
-name = thyme
 [commands]
-publish = npm publish --force, git add ., git commit -m "$@", git push origin master
-ignore = echo $@ >> .gitignore
+proj = open project.tmproj

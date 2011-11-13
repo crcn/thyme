@@ -34,5 +34,8 @@
         "type": "git",
         "url": "http://github.com/spiceapps/thyme.git"
     },
+    "bin": {
+        "thyme": "./bin/thyme"
+    },
     "main": "./lib/index.js"
 }
