@@ -2,7 +2,22 @@
 	"folders":
 	[
 		{
-			"path": "/Users/craig/.cupboard/projects/thyme"
+			"path": "."
+		}
+	],
+	"build_systems":
+	[
+		{
+			"name":"cbd make",
+			"cmd":["cbd","make","thyme"]
+		},
+		{
+			"name":"cbd start",
+			"cmd":["cbd","start","thyme"]
+		},
+		{
+			"name":"cbd make+start",
+			"cmd":["cbd","make+start","thyme"]
 		}
 	]
 }
