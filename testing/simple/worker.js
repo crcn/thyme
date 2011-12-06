@@ -17,8 +17,6 @@ router.on({
 	{                                                        
 		console.log(request.data);            
 		
-		if(request.data.length > 50) return true;
-		
 		return { sendAt: Date.now() + 1, data: request.data + 'h' };
 	}                            
 });                                  
