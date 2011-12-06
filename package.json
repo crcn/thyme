@@ -1,31 +1,31 @@
 {
-    "name":"thyme",
+    "name": "thyme",
     "descriptions": "time / queue management for node.js",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "author": "Craig Condon <craig@crcn.com>",
-    "dependencies":{
-        "sk":"*",
-        "beanpole":"*",
-        "structr":"*",
-        "vine":"*",
-        "underscore":"*",
-        "redis":"*",
-        "cashew":"*",
-        "bean.database.mongo":"*",
-        "daisy":"*",
-        "colors":"*"
+    "dependencies": {
+        "sk": "*",
+        "beanpole": "*",
+        "structr": "*",
+        "vine": "*",
+        "underscore": "*",
+        "redis": "*",
+        "cashew": "*",
+        "bean.database.mongo": "*",
+        "daisy": "*",
+        "colors": "*"
     },
     "beans": {
         "bean.database.mongo": {
-            "host":"localhost",
-            "database":"spiceio"
+            "host": "localhost",
+            "database": "spiceio"
         },
         "thyme.broker.mongo": true,
         "daisy": {
-            "name":"thyme",
+            "name": "thyme",
             "transport": {
                 "rabbitmq": {
-                    "host":"localhost"
+                    "host": "localhost"
                 }
             }
         }
