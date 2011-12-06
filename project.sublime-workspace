@@ -30,7 +30,7 @@
 			"file": "lib/beans/thyme.broker.mongo/broker.js",
 			"settings":
 			{
-				"buffer_size": 6530,
+				"buffer_size": 6347,
 				"line_ending": "Unix"
 			}
 		},
@@ -54,7 +54,7 @@
 			"file": "testing/simple/worker.js",
 			"settings":
 			{
-				"buffer_size": 664,
+				"buffer_size": 617,
 				"line_ending": "Unix"
 			}
 		},
@@ -62,7 +62,7 @@
 			"file": "lib/beans/thyme.core/job.js",
 			"settings":
 			{
-				"buffer_size": 3357,
+				"buffer_size": 3308,
 				"line_ending": "Unix"
 			}
 		},
@@ -70,7 +70,7 @@
 			"file": "lib/beans/thyme.core/worker.js",
 			"settings":
 			{
-				"buffer_size": 6225,
+				"buffer_size": 6242,
 				"line_ending": "Unix"
 			}
 		},
@@ -79,6 +79,70 @@
 			"settings":
 			{
 				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/tmp/subl stdin YUG2wJ.txt",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/beans/thyme.broker.redis/broker.js",
+			"settings":
+			{
+				"buffer_size": 1310,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/beans/thyme.broker.redis/index.js",
+			"settings":
+			{
+				"buffer_size": 200,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/beans/thyme.broker.mongo/index.js",
+			"settings":
+			{
+				"buffer_size": 204,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/beans/thyme.core/workers.js",
+			"settings":
+			{
+				"buffer_size": 1141,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/beans/thyme.core/index.js",
+			"settings":
+			{
+				"buffer_size": 1697,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "testing/change-time/server.js",
+			"settings":
+			{
+				"buffer_size": 1327,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "testing/change-time/worker.js",
+			"settings":
+			{
+				"buffer_size": 621,
 				"line_ending": "Unix"
 			}
 		}
@@ -159,6 +223,19 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"conso",
+			".update",
+			"_id",
+			"_resetStaleTasks",
+			"_runningJob",
+			"_sleep",
+			"_callback",
+			"finished = ",
+			"Disconn",
+			"stopping",
+			"_running",
+			"pulling",
+			"lockTTL",
 			"_sleepTimeout",
 			"sleeping",
 			"_resetStaleTasks",
@@ -245,6 +322,7 @@
 	"groups":
 	[
 		{
+			"selected": 6,
 			"sheets":
 			[
 				{
@@ -304,15 +382,15 @@
 					"file": "lib/beans/thyme.broker.mongo/broker.js",
 					"settings":
 					{
-						"buffer_size": 6530,
+						"buffer_size": 6347,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1797,
-								1797
+								1130,
+								1132
 							]
 						],
 						"settings":
@@ -320,8 +398,8 @@
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 7.0,
-						"translation.y": 572.0,
+						"translation.x": 0.0,
+						"translation.y": 383.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -383,7 +461,7 @@
 					"file": "testing/simple/worker.js",
 					"settings":
 					{
-						"buffer_size": 664,
+						"buffer_size": 617,
 						"regions":
 						{
 						},
@@ -391,7 +469,7 @@
 						[
 							[
 								0,
-								0
+								617
 							]
 						],
 						"settings":
@@ -410,15 +488,15 @@
 					"file": "lib/beans/thyme.core/job.js",
 					"settings":
 					{
-						"buffer_size": 3357,
+						"buffer_size": 3308,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1526,
-								1526
+								1838,
+								1838
 							]
 						],
 						"settings":
@@ -427,7 +505,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 641.0,
+						"translation.y": 272.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -437,15 +515,15 @@
 					"file": "lib/beans/thyme.core/worker.js",
 					"settings":
 					{
-						"buffer_size": 6225,
+						"buffer_size": 6242,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6021,
-								6021
+								4441,
+								4446
 							]
 						],
 						"settings":
@@ -454,7 +532,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3658.0,
+						"translation.y": 2637.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -484,6 +562,219 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/tmp/subl stdin YUG2wJ.txt",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "lib/beans/thyme.broker.redis/broker.js",
+					"settings":
+					{
+						"buffer_size": 1310,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1263,
+								1263
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 599.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "lib/beans/thyme.broker.redis/index.js",
+					"settings":
+					{
+						"buffer_size": 200,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								70,
+								70
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "lib/beans/thyme.broker.mongo/index.js",
+					"settings":
+					{
+						"buffer_size": 204,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								70,
+								70
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "lib/beans/thyme.core/workers.js",
+					"settings":
+					{
+						"buffer_size": 1141,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1042,
+								1042
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 21.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "lib/beans/thyme.core/index.js",
+					"settings":
+					{
+						"buffer_size": 1697,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								807,
+								807
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 327.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "testing/change-time/server.js",
+					"settings":
+					{
+						"buffer_size": 1327,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								500,
+								500
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "testing/change-time/worker.js",
+					"settings":
+					{
+						"buffer_size": 621,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								466,
+								466
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
 				}
 			]
 		}
@@ -494,7 +785,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 30.0
 	},
 	"layout":
 	{
