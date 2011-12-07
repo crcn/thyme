@@ -17,7 +17,7 @@ router.on({
 	{                                                        
 		console.log(request.data);            
 		
-		return { sendAt: Date.now() + 3000, data: request.data + 'h' };
+		request.end({ sendAt: Date.now() + 3000, data: request.data + 'h' });
 	}                            
 });                                  
                                   

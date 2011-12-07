@@ -1,7 +1,7 @@
 {
     "name": "thyme",
     "descriptions": "time / queue management for node.js",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "author": "Craig Condon <craig@crcn.com>",
     "dependencies": {
         "sk": "*",
