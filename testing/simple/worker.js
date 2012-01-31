@@ -1,24 +1,38 @@
-var beanpole = require('beanpole'),
-router = beanpole.router();
+var beanpoll = require('beanpoll'),
+haba = require('haba'),
+router = beanpoll.router(),
+loader = haba.loader();
 
-
-require( __dirname + '/../../node_modules/daisy').plugin(router, {
-   	name: 'thyme-worker',
-	transport: {
-		rabbitmq: {
-			host: 'localhost'
+loader.
+options(router, true).
+require({
+	daisy: {
+		remoteName: 'thyme-worker',
+		transport: {
+			rabbitmq: {
+				host: 'localhost'
+			}
 		}
 	}
-});
+}).init();
                                     
 router.on({
 	
-	'pull -rotate -public hello/worker': function(request)
-	{                                                        
-		console.log(request.data);            
+	'pull -hook hello/worker': function(req, res)
+	{                                     
+		console.log(req.query)                   
 		
-		return { sendAt: Date.now() + 1, data: request.data + 'h' };
-	}                            
+		res.end({ sendAt: Date.now() + 500, data: Math.random() });
+	},
+	
+	'push -hook thyme-test/ready': function() {
+		console.log('server is up')
+	},
+	
+	'push -hook thyme/ready': function() {
+		console.log('thyme is up')
+	}                         
+
 });                                  
                                   
 router.push('init');
