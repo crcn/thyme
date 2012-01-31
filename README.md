@@ -1,7 +1,7 @@
 What's this?
 ------------
 
-A queue / time manager for beanpole based apps, kinda like cron jobs. 
+A queue / cron manager for beanpole based apps, kinda like cron jobs. 
 
 What can it do?
 ---------------
@@ -12,64 +12,77 @@ What can it do?
 - You can specifed a number of concurrent requests to make at any given time. 
 
 
-What's with the name?
----------------------
 
-Do I *really* need to explain this??
+## Requirements
 
-Requirments:
-------------
-
-- NPM
-- beet
-
-Installation:
--------------
-
-	npm install thyme
+- node.js
+- rabbitmq
+- haba
+- daisy
 
 
-Code Usage:
------------
+## Usage
 
-In another beanpole app:
+Startup the thyme server:
+
+	thyme
+
+In your **master** server:
+
+````javascript
+var router = require('beanpoll').router(),
+loader = require('haba').loader();
+
+loader.require({
+	daisy: {
+		remoteName: 'app-master',
+		transport: {
+			rabbitmq: 'localhost'
+		}
+	}
+});
+
+router.on({
+	
+	'push -hook thyme/ready': function() {
+		
+		this.from.push('thyme/worker', { channel: 'do/work', queue: 'app-slave' });
+
+	},
+
+	'push -hook app-slave/ready': function() {
+		
+		router.push('thyme/enqueue', { queue:'app-slave', channel: 'do/work', data: data.message, sendAt: Date.now() + cron.timeout('* * * * * *') });
+		
+	}
+});
+
+````
+
+In your **slave** server (worker):
 
 ```javascript
+var router = require('beanpoll').router(),
+loader = require('haba').loader(),
+cron = require('cron');
 
-
-exports.plugin = function(mediator)
-{
-	
-	mediator.on({
-		'push -pull thyme.ready': function()
-		{
-			//tries = number of tries before killing
-			//max = max number of concurrent
-			mediator.push('set.thyme.info', { channel: 'load.heavy.http.scraper', tries: 5, max: 50 });
-
-
-
-		},
-		'pull load.heavy.http.scraper': function(pull)
-		{
-			//do heavy stuff..
-
-			//this lets thyme know we're done
-			pull.end();
+loader.require({
+	daisy: {
+		remoteName: 'app-slave',
+		transport: {
+			rabbitmq: 'localhost'
 		}
-	})
-
-
-
-	function scrapeContent(site)
-	{
-		//ID must be present so there's no dupes
-		mediator.push('thyme.add', { channel: 'load.heavy.http.scraper', data: { _id: site, v:site }});
 	}
+});
 
-	///code below...
-}
-
+router.on({
+	
+	'pull -hook do/work': function(data) {
+		
+		//re-add the job with NEW data N seconds from now
+		res.end({ sendAt: Date.now() + 1000, data: 'new data' });
+	}
+});
 ```
 
 
