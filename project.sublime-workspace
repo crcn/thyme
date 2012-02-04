@@ -19,14 +19,6 @@
 			}
 		},
 		{
-			"file": "lib/index.js",
-			"settings":
-			{
-				"buffer_size": 44,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "lib/beans/thyme.broker.mongo/broker.js",
 			"settings":
 			{
@@ -70,7 +62,7 @@
 			"file": "testing/simple/worker.js",
 			"settings":
 			{
-				"buffer_size": 617,
+				"buffer_size": 795,
 				"line_ending": "Unix"
 			}
 		},
@@ -86,7 +78,15 @@
 			"file": "lib/beans/thyme.core/worker.js",
 			"settings":
 			{
-				"buffer_size": 6219,
+				"buffer_size": 6348,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/tmp/subl stdin wOUWPS.txt",
+			"settings":
+			{
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
@@ -145,7 +145,7 @@
 			"file": "lib/beans/thyme.core/index.js",
 			"settings":
 			{
-				"buffer_size": 1697,
+				"buffer_size": 1738,
 				"line_ending": "Unix"
 			}
 		},
@@ -162,6 +162,57 @@
 			"settings":
 			{
 				"buffer_size": 627,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 680,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/server.js",
+			"settings":
+			{
+				"buffer_size": 620,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "testing/simple/server.js",
+			"settings":
+			{
+				"buffer_size": 1368,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/beans/thyme.core/job.js",
+			"settings":
+			{
+				"buffer_size": 2814,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "What's this?\n------------\n\nA queue / cron manager for beanpole based apps, kinda like cron jobs. \n\nWhat can it do?\n---------------\n\n- Register a request to call at a specific time.\n- Register a ton of calls at an unspecified time, and thyme will send them immediately, one after the other.\n- If a request fails, you can specify the time to try and make the request again, and the number of times to send the request before disposing it.\n- You can specifed a number of concurrent requests to make at any given time. \n\n\n\n## Requirements\n\n- node.js\n- rabbitmq\n- haba\n- daisy\n\n\n## Usage\n\nStartup the thyme server:\n\n	thyme\n\nIn your **master** server:\n\n````javascript\nvar router = require('beanpoll').router(),\nloader = require('haba').loader();\n\nloader.require({\n	daisy: {\n		remoteName: 'app-master',\n		transport: {\n			rabbitmq: 'localhost'\n		}\n	}\n});\n\nrouter.on({\n	\n	'push -hook thyme/ready': function() {\n		\n		this.from.push('thyme/worker', { channel: 'do/work', queue: 'app-slave' });\n\n	},\n\n	'push -hook app-slave/ready': function() {\n		\n		router.push('thyme/enqueue', { queue:'app-slave', channel: 'do/work', data: data.message, sendAt: Date.now() + cron.timeout('* * * * * *') });\n		\n	}\n});\n\n````\n\nIn your **slave** server (worker):\n\n```javascript\nvar router = require('beanpoll').router(),\nloader = require('haba').loader(),\ncron = require('cron');\n\nloader.require({\n	daisy: {\n		remoteName: 'app-slave',\n		transport: {\n			rabbitmq: 'localhost'\n		}\n	}\n})\n\nrouter.on({\n	\n	'pull -hook do/work': function(data) {\n		\n		//re-add the job with NEW data N seconds from now\n		res.end({ sendAt: Date.now() + 1000, data: 'new data' });\n	}\n});\n```\n\n\nTo Do:\n------\n\n- ordering queue based on request/response speed. \n- need to check if call exists before making it.\n- don't send queues of handler is not present.\n",
+			"file": "README.md",
+			"file_size": 1801,
+			"file_write_time": 1327975344000000,
+			"settings":
+			{
+				"buffer_size": 1800,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/tmp/subl stdin 7sWiFG.txt",
+			"settings":
+			{
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		}
@@ -190,6 +241,7 @@
 	},
 	"file_history":
 	[
+		"/Users/craig/Dropbox/Developer/Public/thyme/lib/index.js",
 		"/Users/craig/Dropbox/Developer/Public/thyme/lib/beans/thyme.core/job.js",
 		"/tmp/subl stdin w7F8nl.txt",
 		"/Volumes/minimac/Users/craig/Dropbox/Developer/Jobs/Spice/private/teamdigest/lib/front/publish/js/main.js",
@@ -243,6 +295,40 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"_running",
+			"_callback",
+			"_onDisconnect",
+			".run",
+			"_callback",
+			".run",
+			"_callback",
+			"log",
+			"locking",
+			"Discon",
+			"responded",
+			"add/next/promotion",
+			".options",
+			"channel",
+			"_id",
+			"pulling ",
+			"console.l",
+			"_locked",
+			"_sleeping",
+			"sleep",
+			"worker.",
+			"worker._",
+			"worker ",
+			"_onDisconnect",
+			"failed",
+			"1 jobs",
+			"_killTimeout",
+			"pull(",
+			"_sleep",
+			"sleeping",
+			"_onResponse",
+			"sendAt",
+			"thyme/worker",
+			"beanpole",
 			"pull.thyme",
 			"queued",
 			"addJob",
@@ -345,7 +431,7 @@
 	"groups":
 	[
 		{
-			"selected": 9,
+			"selected": 22,
 			"sheets":
 			[
 				{
@@ -376,32 +462,6 @@
 				},
 				{
 					"buffer": 1,
-					"file": "lib/index.js",
-					"settings":
-					{
-						"buffer_size": 44,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								44,
-								44
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "lib/beans/thyme.broker.mongo/broker.js",
 					"settings":
 					{
@@ -412,8 +472,8 @@
 						"selection":
 						[
 							[
-								731,
-								733
+								1800,
+								1801
 							]
 						],
 						"settings":
@@ -422,13 +482,13 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 631.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 2,
 					"file": "/tmp/subl stdin kVdCwZ.txt",
 					"settings":
 					{
@@ -454,7 +514,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 3,
 					"file": "/tmp/subl stdin P0zZ7X.txt",
 					"settings":
 					{
@@ -480,7 +540,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 4,
 					"file": "/tmp/subl stdin bwg0xr.txt",
 					"settings":
 					{
@@ -506,7 +566,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 5,
 					"file": "/tmp/subl stdin 8n56rz.txt",
 					"settings":
 					{
@@ -532,19 +592,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 6,
 					"file": "testing/simple/worker.js",
 					"settings":
 					{
-						"buffer_size": 617,
+						"buffer_size": 795,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								617
+								490,
+								490
 							]
 						],
 						"settings":
@@ -559,7 +619,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 7,
 					"file": "/tmp/subl stdin GrBZOc.txt",
 					"settings":
 					{
@@ -585,19 +645,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 8,
 					"file": "lib/beans/thyme.core/worker.js",
 					"settings":
 					{
-						"buffer_size": 6219,
+						"buffer_size": 6348,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2969,
-								2969
+								4852,
+								4852
 							]
 						],
 						"settings":
@@ -605,7 +665,33 @@
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 3.0,
+						"translation.x": 0.0,
+						"translation.y": 2671.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/tmp/subl stdin wOUWPS.txt",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
@@ -685,7 +771,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 599.0,
+						"translation.y": 572.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -729,8 +815,8 @@
 						"selection":
 						[
 							[
-								70,
-								70
+								204,
+								204
 							]
 						],
 						"settings":
@@ -755,8 +841,8 @@
 						"selection":
 						[
 							[
-								1042,
-								1042
+								292,
+								292
 							]
 						],
 						"settings":
@@ -775,15 +861,15 @@
 					"file": "lib/beans/thyme.core/index.js",
 					"settings":
 					{
-						"buffer_size": 1697,
+						"buffer_size": 1738,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								896,
-								896
+								388,
+								388
 							]
 						],
 						"settings":
@@ -792,7 +878,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 149.0,
+						"translation.y": 197.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -844,6 +930,169 @@
 						{
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "package.json",
+					"settings":
+					{
+						"buffer_size": 680,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								338,
+								338
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "lib/server.js",
+					"settings":
+					{
+						"buffer_size": 620,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								231,
+								231
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "testing/simple/server.js",
+					"settings":
+					{
+						"buffer_size": 1368,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1301,
+								1147
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 122.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 22,
+					"file": "lib/beans/thyme.core/job.js",
+					"settings":
+					{
+						"buffer_size": 2814,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1262,
+								1262
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 452.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 23,
+					"file": "README.md",
+					"settings":
+					{
+						"buffer_size": 1800,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1454,
+								1454
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 662.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 24,
+					"file": "/tmp/subl stdin 7sWiFG.txt",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

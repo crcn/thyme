@@ -1,7 +1,7 @@
 {
     "name": "thyme",
     "descriptions": "time / queue management for node.js",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "author": "Craig Condon <craig@crcn.com>",
     "dependencies": {
         "sk": "*",
@@ -9,6 +9,8 @@
         "haba": "<0.2.0",
         "structr": "*",
         "vine": "*",
+        "winston": "*",
+        "sprintf": "*",
         "underscore": "*",
         "redis": "*",
         "cashew": "*",
