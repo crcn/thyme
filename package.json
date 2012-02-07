@@ -4,6 +4,7 @@
     "version": "0.1.1",
     "author": "Craig Condon <craig@crcn.com>",
     "dependencies": {
+	"disposable":"*",
         "sk": "*",
         "beanpoll": "<0.3.0",
         "haba": "<0.2.0",

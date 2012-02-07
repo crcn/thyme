@@ -169,7 +169,7 @@
 			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 680,
+				"buffer_size": 683,
 				"line_ending": "Unix"
 			}
 		},
@@ -194,6 +194,14 @@
 			"settings":
 			{
 				"buffer_size": 2814,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/tmp/subl stdin mNAI7p.txt",
+			"settings":
+			{
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
@@ -431,7 +439,7 @@
 	"groups":
 	[
 		{
-			"selected": 22,
+			"selected": 19,
 			"sheets":
 			[
 				{
@@ -942,15 +950,15 @@
 					"file": "package.json",
 					"settings":
 					{
-						"buffer_size": 680,
+						"buffer_size": 683,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								338,
-								338
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1049,6 +1057,32 @@
 				},
 				{
 					"buffer": 23,
+					"file": "/tmp/subl stdin mNAI7p.txt",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 24,
 					"file": "README.md",
 					"settings":
 					{
@@ -1075,7 +1109,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 24,
+					"buffer": 25,
 					"file": "/tmp/subl stdin 7sWiFG.txt",
 					"settings":
 					{
