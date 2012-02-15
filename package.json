@@ -7,7 +7,7 @@
 	"disposable":"*",
         "sk": "*",
         "beanpoll": "<0.3.0",
-        "haba": "<0.2.0",
+        "plugin": "<0.2.0",
         "structr": "*",
         "vine": "*",
         "winston": "*",
