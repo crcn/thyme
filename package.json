@@ -1,13 +1,12 @@
 {
     "name": "thyme",
     "descriptions": "time / queue management for node.js",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "author": "Craig Condon <craig@crcn.com>",
     "dependencies": {
-	"disposable":"*",
+        "disposable": "*",
         "sk": "*",
-        "beanpoll": "<0.3.0",
-        "plugin": "<0.2.0",
+        "beanie": "<0.0.x",
         "structr": "*",
         "vine": "*",
         "winston": "*",

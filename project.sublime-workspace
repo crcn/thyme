@@ -150,6 +150,14 @@
 			}
 		},
 		{
+			"file": "/tmp/subl stdin cfnPi5.txt",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "testing/change-time/server.js",
 			"settings":
 			{
@@ -169,7 +177,7 @@
 			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 703,
+				"buffer_size": 705,
 				"line_ending": "Unix"
 			}
 		},
@@ -448,7 +456,7 @@
 	"groups":
 	[
 		{
-			"selected": 16,
+			"selected": 22,
 			"sheets":
 			[
 				{
@@ -902,6 +910,32 @@
 				},
 				{
 					"buffer": 17,
+					"file": "/tmp/subl stdin cfnPi5.txt",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 18,
 					"file": "testing/change-time/server.js",
 					"settings":
 					{
@@ -928,7 +962,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 18,
+					"buffer": 19,
 					"file": "testing/change-time/worker.js",
 					"settings":
 					{
@@ -955,19 +989,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 19,
+					"buffer": 20,
 					"file": "package.json",
 					"settings":
 					{
-						"buffer_size": 703,
+						"buffer_size": 705,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								258,
+								258
 							]
 						],
 						"settings":
@@ -983,7 +1017,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 20,
+					"buffer": 21,
 					"file": "/tmp/subl stdin t27KxT.txt",
 					"settings":
 					{
@@ -1009,7 +1043,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 21,
+					"buffer": 22,
 					"file": "lib/server.js",
 					"settings":
 					{
@@ -1020,8 +1054,8 @@
 						"selection":
 						[
 							[
-								231,
-								231
+								134,
+								134
 							]
 						],
 						"settings":
@@ -1037,7 +1071,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 22,
+					"buffer": 23,
 					"file": "testing/simple/server.js",
 					"settings":
 					{
@@ -1064,7 +1098,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 23,
+					"buffer": 24,
 					"file": "lib/beans/thyme.core/job.js",
 					"settings":
 					{
@@ -1091,7 +1125,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 24,
+					"buffer": 25,
 					"file": "/tmp/subl stdin mNAI7p.txt",
 					"settings":
 					{
@@ -1117,7 +1151,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 25,
+					"buffer": 26,
 					"file": "README.md",
 					"settings":
 					{
@@ -1144,7 +1178,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 26,
+					"buffer": 27,
 					"file": "/tmp/subl stdin 7sWiFG.txt",
 					"settings":
 					{
