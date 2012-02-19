@@ -1,29 +1,31 @@
 {
-  "name": "thyme",
-  "descriptions": "time / queue management for node.js",
-  "version": "0.1.2",
-  "author": "Craig Condon <craig@crcn.com>",
-  "dependencies": {
-    "disposable": "*",
-    "sk": "*",
-    "beanie": "<0.0.x",
-    "structr": "*",
-    "vine": "*",
-    "winston": "*",
-    "sprintf": "*",
-    "underscore": "*",
-    "redis": "*",
-    "cashew": "*",
-    "bean.database.mongo": "*",
-    "daisy": "*",
-    "colors": "*"
-  },
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/crcn/thyme.git"
-  },
-  "bin": {
-    "thyme": "./bin/thyme"
-  },
-  "main": "./lib/index.js"
+    "name": "thyme",
+    "descriptions": "time / queue management for node.js",
+    "version": "0.1.3",
+    "author": "Craig Condon <craig@crcn.com>",
+    "dependencies": {
+        "disposable": "*",
+        "sk": "*",
+        "beanie": "<0.0.x",
+        "structr": "*",
+        "vine": "*",
+        "winston": "*",
+        "sprintf": "*",
+        "underscore": "*",
+        "redis": "*",
+        "cashew": "*",
+        "bean.database.mongo": "*",
+        "daisy": "*",
+        "colors": "*",
+        "outcome": "*",
+        "stepc": "*"
+    },
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/crcn/thyme.git"
+    },
+    "bin": {
+        "thyme": "./bin/thyme"
+    },
+    "main": "./lib/index.js"
 }
