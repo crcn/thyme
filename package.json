@@ -6,7 +6,7 @@
     "dependencies": {
         "disposable": "*",
         "sk": "*",
-        "beanie": "<0.0.x",
+        "beanie": "0.0.x",
         "structr": "*",
         "vine": "*",
         "winston": "*",
