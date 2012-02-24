@@ -20,7 +20,7 @@ router.on({
 	{
 		console.log('Thyme is ready. Fire up the worker!');
 		
-		this.from.push('thyme/worker', { queue: 'thyme-worker', max: 20, channel: '/hello/worker' });
+		this.from.push('thyme/worker', { queue: 'thyme-worker', max: 20, path: '/hello/worker' });
 	},
 	
 	/**
@@ -33,7 +33,7 @@ router.on({
 		//start feeding the queue some data  
 		setInterval(function()
 		{       
-			router.push('thyme/enqueue', { queue:'thyme-worker', channel: '/hello/worker', data: i++, sendAt: Date.now()  });
+			router.push('thyme/enqueue', { queue:'thyme-worker', path: '/hello/worker', data: i++, sendAt: Date.now()  });
 		}, 1);                                                                                                                                                                                                                                     
 	}
 	

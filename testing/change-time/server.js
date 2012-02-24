@@ -21,7 +21,7 @@ router.on({
 	{
 		console.log('Thyme is ready. Fire up the worker!');
 		
-		this.from.push('thyme/worker', { queue: 'thyme-worker', max: 20, channel: '/hello/workerr' });
+		this.from.push('thyme/worker', { queue: 'thyme-worker', max: 20, path: '/hello/workerr' });
 	},
 	
 	/**
@@ -42,7 +42,7 @@ celeri.on({
 	
    	'message :message OR message :message :timeout': function(data)
 	{                                                                                                                      
-		router.push('thyme/enqueue', { _id: 'hello-test', queue:'thyme-worker', channel: '/hello/workerr', data: data.message, sendAt: Date.now() + (Number(data.timeout) || 0) });
+		router.push('thyme/enqueue', { _id: 'hello-test', queue:'thyme-worker', path: '/hello/workerr', data: data.message, sendAt: Date.now() + (Number(data.timeout) || 0) });
 	}
 });  
 

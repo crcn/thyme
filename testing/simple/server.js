@@ -1,7 +1,7 @@
 var beanpoll = require('beanpoll'),
-haba = require('haba'),
+plugin = require('plugin'),
 router = beanpoll.router(),
-loader = haba.loader(),
+loader = plugin.loader(),
 celeri = require('celeri');
 
 loader.
@@ -28,7 +28,7 @@ router.on({
 	{
 		console.log('Thyme is ready. Fire up the worker!');
 		
-		this.from.push('thyme/worker', { queue: 'thyme-worker', max: 20, channel: '/hello/worker' });
+		this.from.push('thyme/worker', { queue: 'thyme-worker', max: 20, path: '/hello/worker' });
 	},
 	
 	/**
@@ -49,7 +49,7 @@ celeri.onCommand({
 	
    	'message :message OR message :message :timeout': function(data)
 	{                                                                                                                      
-		router.push('thyme/enqueue', { queue:'thyme-worker', channel: '/hello/worker', data: data.message, sendAt: Date.now() + (Number(data.timeout) || 0) });
+		router.push('thyme/enqueue', { queue:'thyme-worker', path: '/hello/worker', data: data.message, sendAt: Date.now() + (Number(data.timeout) || 0) });
 	}
 });  
 
