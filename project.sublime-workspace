@@ -78,7 +78,7 @@
 			"file": "lib/beans/thyme.core/worker.js",
 			"settings":
 			{
-				"buffer_size": 5922,
+				"buffer_size": 5901,
 				"line_ending": "Unix"
 			}
 		},
@@ -145,7 +145,7 @@
 			"file": "lib/beans/thyme.core/workers.js",
 			"settings":
 			{
-				"buffer_size": 1057,
+				"buffer_size": 1039,
 				"line_ending": "Unix"
 			}
 		},
@@ -153,7 +153,7 @@
 			"file": "lib/beans/thyme.core/index.js",
 			"settings":
 			{
-				"buffer_size": 1622,
+				"buffer_size": 1604,
 				"line_ending": "Unix"
 			}
 		},
@@ -169,7 +169,7 @@
 			"file": "testing/change-time/server.js",
 			"settings":
 			{
-				"buffer_size": 1327,
+				"buffer_size": 1321,
 				"line_ending": "Unix"
 			}
 		},
@@ -190,6 +190,14 @@
 			}
 		},
 		{
+			"file": "/tmp/subl stdin 8PNJzX.txt",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "/tmp/subl stdin t27KxT.txt",
 			"settings":
 			{
@@ -201,7 +209,7 @@
 			"file": "lib/server.js",
 			"settings":
 			{
-				"buffer_size": 491,
+				"buffer_size": 485,
 				"line_ending": "Unix"
 			}
 		},
@@ -233,7 +241,7 @@
 			"file": "lib/beans/thyme.core/job.js",
 			"settings":
 			{
-				"buffer_size": 2834,
+				"buffer_size": 2819,
 				"line_ending": "Unix"
 			}
 		},
@@ -512,7 +520,7 @@
 	"groups":
 	[
 		{
-			"selected": 21,
+			"selected": 24,
 			"sheets":
 			[
 				{
@@ -730,15 +738,15 @@
 					"file": "lib/beans/thyme.core/worker.js",
 					"settings":
 					{
-						"buffer_size": 5922,
+						"buffer_size": 5901,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2770,
-								2776
+								0,
+								0
 							]
 						],
 						"settings":
@@ -941,15 +949,15 @@
 					"file": "lib/beans/thyme.core/workers.js",
 					"settings":
 					{
-						"buffer_size": 1057,
+						"buffer_size": 1039,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								842,
-								842
+								0,
+								0
 							]
 						],
 						"settings":
@@ -968,15 +976,15 @@
 					"file": "lib/beans/thyme.core/index.js",
 					"settings":
 					{
-						"buffer_size": 1622,
+						"buffer_size": 1604,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								602,
-								602
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1021,15 +1029,15 @@
 					"file": "testing/change-time/server.js",
 					"settings":
 					{
-						"buffer_size": 1327,
+						"buffer_size": 1321,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1257,
-								1217
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1100,7 +1108,7 @@
 				},
 				{
 					"buffer": 22,
-					"file": "/tmp/subl stdin t27KxT.txt",
+					"file": "/tmp/subl stdin 8PNJzX.txt",
 					"settings":
 					{
 						"buffer_size": 0,
@@ -1126,18 +1134,44 @@
 				},
 				{
 					"buffer": 23,
-					"file": "lib/server.js",
+					"file": "/tmp/subl stdin t27KxT.txt",
 					"settings":
 					{
-						"buffer_size": 491,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								19,
-								19
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 24,
+					"file": "lib/server.js",
+					"settings":
+					{
+						"buffer_size": 485,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								319,
+								319
 							]
 						],
 						"settings":
@@ -1153,7 +1187,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 24,
+					"buffer": 25,
 					"file": "/tmp/subl stdin D4zS3I.txt",
 					"settings":
 					{
@@ -1179,7 +1213,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 25,
+					"buffer": 26,
 					"file": "/tmp/subl stdin Vo3lJ2.txt",
 					"settings":
 					{
@@ -1205,7 +1239,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 26,
+					"buffer": 27,
 					"file": "testing/simple/server.js",
 					"settings":
 					{
@@ -1232,19 +1266,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 27,
+					"buffer": 28,
 					"file": "lib/beans/thyme.core/job.js",
 					"settings":
 					{
-						"buffer_size": 2834,
+						"buffer_size": 2819,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1758,
-								1758
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1259,7 +1293,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 28,
+					"buffer": 29,
 					"file": "/tmp/subl stdin mNAI7p.txt",
 					"settings":
 					{
@@ -1285,7 +1319,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 29,
+					"buffer": 30,
 					"file": "README.md",
 					"settings":
 					{
@@ -1312,7 +1346,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 30,
+					"buffer": 31,
 					"file": "/tmp/subl stdin 7sWiFG.txt",
 					"settings":
 					{
@@ -1338,7 +1372,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 31,
+					"buffer": 32,
 					"file": ".cupboard",
 					"settings":
 					{
@@ -1364,7 +1398,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 32,
+					"buffer": 33,
 					"file": "/tmp/subl stdin 5kM0VZ.txt",
 					"settings":
 					{
@@ -1390,7 +1424,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 33,
+					"buffer": 34,
 					"file": "/tmp/subl stdin hxbhlT.txt",
 					"settings":
 					{
