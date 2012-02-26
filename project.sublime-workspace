@@ -209,7 +209,15 @@
 			"file": "lib/server.js",
 			"settings":
 			{
-				"buffer_size": 485,
+				"buffer_size": 602,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/tmp/subl stdin AgnjVj.txt",
+			"settings":
+			{
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
@@ -293,6 +301,14 @@
 			"settings":
 			{
 				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "supervisord.conf",
+			"settings":
+			{
+				"buffer_size": 141,
 				"line_ending": "Unix"
 			}
 		}
@@ -1163,15 +1179,15 @@
 					"file": "lib/server.js",
 					"settings":
 					{
-						"buffer_size": 485,
+						"buffer_size": 602,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								319,
-								319
+								303,
+								303
 							]
 						],
 						"settings":
@@ -1188,7 +1204,7 @@
 				},
 				{
 					"buffer": 25,
-					"file": "/tmp/subl stdin D4zS3I.txt",
+					"file": "/tmp/subl stdin AgnjVj.txt",
 					"settings":
 					{
 						"buffer_size": 0,
@@ -1214,7 +1230,7 @@
 				},
 				{
 					"buffer": 26,
-					"file": "/tmp/subl stdin Vo3lJ2.txt",
+					"file": "/tmp/subl stdin D4zS3I.txt",
 					"settings":
 					{
 						"buffer_size": 0,
@@ -1240,6 +1256,32 @@
 				},
 				{
 					"buffer": 27,
+					"file": "/tmp/subl stdin Vo3lJ2.txt",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 28,
 					"file": "testing/simple/server.js",
 					"settings":
 					{
@@ -1266,7 +1308,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 28,
+					"buffer": 29,
 					"file": "lib/beans/thyme.core/job.js",
 					"settings":
 					{
@@ -1293,7 +1335,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 29,
+					"buffer": 30,
 					"file": "/tmp/subl stdin mNAI7p.txt",
 					"settings":
 					{
@@ -1319,7 +1361,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 30,
+					"buffer": 31,
 					"file": "README.md",
 					"settings":
 					{
@@ -1340,13 +1382,13 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 662.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 31,
+					"buffer": 32,
 					"file": "/tmp/subl stdin 7sWiFG.txt",
 					"settings":
 					{
@@ -1372,7 +1414,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 32,
+					"buffer": 33,
 					"file": ".cupboard",
 					"settings":
 					{
@@ -1398,7 +1440,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 33,
+					"buffer": 34,
 					"file": "/tmp/subl stdin 5kM0VZ.txt",
 					"settings":
 					{
@@ -1424,7 +1466,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 34,
+					"buffer": 35,
 					"file": "/tmp/subl stdin hxbhlT.txt",
 					"settings":
 					{
@@ -1437,6 +1479,32 @@
 							[
 								0,
 								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 36,
+					"file": "supervisord.conf",
+					"settings":
+					{
+						"buffer_size": 141,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								119,
+								119
 							]
 						],
 						"settings":
