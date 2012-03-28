@@ -17,6 +17,13 @@ require({
 
                                     
 loader.router.on({ 
+
+	/**
+	 */
+
+	'push -hook thyme/ready': function() {
+		loader.router.push('thyme/throttle', { queue: 'thyme-worker' });
+	},
 	
 	
 	/**
